@@ -4,4 +4,5 @@ Create fake identities for your tests
 <h1>ScreenShots</h1>
 
 
-![screencapture-localhost-63342-Generatore-di-Identita-Casuali-index-html-2025-05-24-16_28_16](https://github.com/user-attachments/assets/ce4d349a-506e-41f8-8524-715062d6c5f8)
+
+![screencapture-localhost-63342-Random-Identity-Generator-index-html-2025-05-24-21_59_20](https://github.com/user-attachments/assets/cc705484-c6bb-42a2-8f03-511ac6f7c3c9)
