@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore di Identità Casuali</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon/favicon.ico">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <img src="1.png" alt="DG" class="logo">
+        <h1>Random Identity Generator</h1>
+        <p>Create fake identities for your tests</p>
+    </header>
+
+    <main class="main-content">
+        <div class="controls-card">
+            <label for="numIdentities">Numero di identità da generare:</label>
+            <input type="number" id="numIdentities" value="1" min="1" max="10">
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="copyAuto" checked>
+                <label for="copyAuto">Copia automaticamente (singola identità)</label>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="includePassword" checked>
+                <label for="includePassword">Includi Password (solo per testing)</label>
+            </div>
+
+            <button id="generateBtn" class="primary-button">Genera Identità</button>
+            <button id="clearBtn" class="secondary-button">Pulisci Output</button>
+        </div>
+
+        <div class="output-card">
+            <h2>Dati Generati:</h2>
+            <div id="outputArea" class="output-area">
+            </div>
+            <button id="copyAllBtn" class="tertiary-button">Copia Tutti i Dati</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 Crea identità fittizie per i tuoi test - Gheris D</p>
+    </footer>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
